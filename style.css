@@ -1,0 +1,185 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#blue-sec{
+    background : #00339979;
+}
+header nav .container .navbar-nav .nav-item{
+    font-size: 18px;
+    /* color: #003399; */
+    font-weight: 700;
+}
+
+/* SLIDESHOW CSS */
+main .slideshow{
+    border-bottom: 15px solid #003399;
+}
+main .slideshow .carousel-indicators button{
+    border: 1px solid gray; 
+    height: 10px; 
+    width: 10px; 
+    border-radius: 100px;
+}
+main .slideshow .carousel-indicators .active{
+    border: 1px solid white; 
+}
+main .slideshow .carousel-inner{
+    height: 650px;
+}
+main .slideshow .carousel-item .carousel-caption{
+    top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+main .slideshow .carousel-item .carousel-caption h1{
+    /* font-size: 40px; */
+    font-weight: 700;
+}
+main .slideshow .carousel-item .carousel-caption h1 #wtlow{
+    font-weight: 1;
+}
+main .slideshow .carousel-item .carousel-caption button{
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px 10px 30px;
+}
+
+/* OUR SERVICES CSS */
+main .oservice-sec{
+    background-image: url(img/photovoltaic-2814504_1920.jpg);
+    /* background : #003399; */
+}
+main .oservice-sec .card{
+    width: 18rem;
+}
+main .oservice-sec .card .card-img-overlay{
+    top: 23%;
+}
+main .oservice-sec .card .card-img-top{
+    height: 175px;
+}
+
+
+main .lproject-sec .card .card-img{
+    height: 325px;
+}
+
+/* PRICING CSS */
+main .pricing-sec{
+    background-image: url(img/solar-power-862602_1920.jpg);
+}
+main .pricing-sec .price-table{
+    background-color: white;
+}
+
+/* TESTIMONIAL CSS */
+main .testimonial-sec{
+    background-image: url(img/solar-panel-array-1591358_1280.jpg);
+    background-size: cover;
+}
+
+main .testimonial-sec .carousel-inner .carousel-item .carousel-caption .card img{
+    margin: -100px auto 30px auto;
+}
+
+main .testimonial-sec .carousel-indicators button{
+    border: 1px solid gray; 
+    height: 10px; 
+    width: 10px; 
+    border-radius: 100px;
+}
+
+/* CONTACT US CSS */
+main .contactus-sec .contact-form-sec{
+    background-image: url(img/solar-photovoltaic-panels-station-checks-with-tablet-computer_1150-18191.jpg);
+    background-size: cover;
+}
+
+/* FOOTER DETAIL CSS */
+footer .footdetail-sec{
+    background-image: url(img/solar-system-2939560_1920.jpg);
+}
+
+@media(max-width:1200px){
+    header nav .container .navbar-nav .nav-item{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:991px){
+    main .oservice-sec .card{
+        width: 25rem;
+    }
+    main .oservice-sec .card .card-img-overlay{
+        top: 28%;
+    }
+
+    main .testimonial-sec .carousel-inner{
+        height: 900px;
+    }
+}
+
+
+@media(max-width:570px){
+    header .navbar .navbar-brand img{
+        width: 100px;
+        height: 80px;
+    }
+
+    main .slideshow .carousel-item .carousel-caption{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    main .pricing-sec .price-table{
+        text-align: center;
+    }
+
+    main .testimonial-sec .carousel-inner{
+        height: 600px;
+    }
+
+    main .testimonial-sec .carousel-inner .carousel-item .carousel-caption .card img{
+        margin: -50px auto 10px auto;
+    }
+
+    footer .footdetail-sec .row{
+        text-align: center;
+        justify-content: center;
+    }
+    footer .ending-sec{
+        text-align: center;
+    }
+}
+@media(max-width:425px){
+    main .slideshow .carousel-item .carousel-caption{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    main .oservice-sec .card .card-img-overlay{
+        top: 27%;
+    }
+}
+
+@media(max-width:387px){
+    header .navbar .navbar-brand img{
+        width: 80px;
+        height: 60px;
+    }
+
+    main .oservice-sec .card .card-img-overlay{
+        top: 26%;
+    }
+
+    main .testimonial-sec .carousel-inner .carousel-item .carousel-caption .card{
+        padding-left: 0px;
+    }
+    main .testimonial-sec .carousel-inner .carousel-item .carousel-caption .card img{
+        margin: -30px auto 0px auto;
+        width: 70%; height: 70%;
+    }
+}
